@@ -4,5 +4,44 @@ body{
   /* font-weight: <weight>;
   font-style: normal; */
   background-color: rgb(175, 175, 175);
+ Margin: 20px
 
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.special-headline {
+    font-weight: 900;
+    color: cadetblue;
+}
+
+#unique-headline {
+    font-weight: 300;
+    color: rgb(186, 87, 173);
+}
+
+h2, h3, h4 {
+    font-weight: 600;
+    color: darkblue;
+}
+
+.post {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    img {
+        width: 50%;
+        height: 50%;
+        display: block;
+    }
+}
+.highlight {
+    background-color: black;
+    color: antiquewhite;
+    h2 {
+        color: antiquewhite;
+    }
 }
