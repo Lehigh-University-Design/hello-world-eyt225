@@ -1,15 +1,25 @@
+:root {
+    --background-color: rgb(175, 175, 175);
+    --light-color: antiquewhite;
+    --dark-color:  darkblue;
+
+
+}
+
+
 body{
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>;
   font-style: normal; */
-  background-color: rgb(175, 175, 175);
- Margin: 20px
+  background-color: var(--background-color);
+ Margin: 20px;
+ font-size: 22px;
 
 }
 
 h1{
-    font-size: 30px;
+    font-size: 2.5em;
     font-weight: 300;
 }
 
@@ -24,24 +34,37 @@ h1{
 }
 
 h2, h3, h4 {
-    font-weight: 600;
-    color: darkblue;
+    font-weight: 2em;
+    color: var(--dark-color);
 }
 
 .post {
     border: 1px solid black;
-    margin-bottom: 20px;
-    padding: 10px 20px;
+    margin-bottom: 1em;
+    padding: .5em 1em;
     img {
         width: 50%;
         height: 50%;
         display: block;
+
+        img-container {
+            aspect-ratio: 3/2;
+            background-color: black;
+        }
     }
 }
 .highlight {
     background-color: black;
-    color: antiquewhite;
+    color: var(--light-color);
     h2 {
-        color: antiquewhite;
+        color: var(--light-color);
     }
 }
+
+/* lab 2 Styles*/
+
+.container {
+    max-width: 1080 px;
+    margin:0 auto
+}
+
